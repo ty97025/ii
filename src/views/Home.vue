@@ -35,6 +35,8 @@
     .image5
     .image6
 
+    .test
+
 </template>
 
 <script>
