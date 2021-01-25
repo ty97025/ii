@@ -21,6 +21,19 @@
       <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
       <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
     </ul>
+    <ul class="l-nav-mainOption">
+      <li>
+        <router-link to="/shop">優秀好書</router-link>
+      </li>
+      <li>
+        <router-link to="/aboutUs">關於我們</router-link>
+      </li>
+      <li class="l-nav-user">
+        <router-link to="/login">
+          <i class="fas fa-user"></i>
+        </router-link>
+      </li>
+    </ul>
     <h3>Ecosystem</h3>
     <ul>
       <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
